@@ -37,6 +37,7 @@ form .todo {
       height: 50px;
       font-size: 15px;
       margin: 0 auto;
+      
 
     };
 
@@ -91,13 +92,20 @@ footer {
 
         ul {
               padding-left: 316px;
+
                   li {
+
                   display: inline-block;
                   text-decoration: none;
-                  padding-left: 80px;
+                  margin-left: 75px;
+
                   // padding: 25px;
                   // padding-left: 21px;
+                  &:hover {
+                    border-bottom: 1px solid maroon;
+                    padding: 5px;
 
+                  }
                 }
                 // div {
                 //   border: 1px solid maroon;

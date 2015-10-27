@@ -68,4 +68,7 @@ footer {
     footer ul li {
       display: inline-block;
       text-decoration: none;
-      padding-left: 80px; }
+      margin-left: 75px; }
+      footer ul li:hover {
+        border-bottom: 1px solid maroon;
+        padding: 5px; }

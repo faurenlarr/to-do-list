@@ -32,10 +32,10 @@ $('footer').on('click', 'li', function(){
   console.log(this);
 });
 
-// var activepage = function(){
-//   if('i')hasClass('crossedout');
-//
-// };
+$('.clear').on('click', function(){
+  $('.clear').removeClass('hidden');
+
+});
 
         $('form').on('submit', function (event) {
               event.preventDefault();
@@ -56,18 +56,8 @@ $('footer').on('click', 'li', function(){
                   $('#itemsleft').text("Items Left" + " " +  parseInt(todoId - 1));
               });
               //
-      //         $('.clear').on('click', function (event) {
-      //           event.preventDefault();
-      //          $(this).closest('section').data('id');
-      //           page.deleteSection(todoId);
-      // });
-            });
-
-            // $('.container').on('dbclick', 'i', function (event){
-            //     event.preventDefault();
-            //     $().
-            // };
-
+      //
+    });
 
           },
 
