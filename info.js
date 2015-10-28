@@ -1,8 +1,3 @@
-var todoData = [{
-
-
-
-
-},
+var todoData = [
 
 ];
