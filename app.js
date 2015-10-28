@@ -45,7 +45,7 @@ $('.clear').on('click', function(){
               todoData.push(newToDo);
               var todoId = todoData.indexOf(newToDo);
               // newToDo.id = todoId;
-              page.loadTemplate($('.container'), newToDo, $('#todoTmpl').html());
+              page.loadTemplate($('.gohere'), newToDo, $('#todoTmpl').html());
               $('input[name="todo"]').val("");
               console.log(todoId);
               $('#itemsleft').text("Items Left" + " " + todoId);
