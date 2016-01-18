@@ -2,7 +2,7 @@
 
 ## Description
 Your task is to recreate this:
-![](todo.png)
+![](file:///Users/laurenfarr/Desktop/todo.png)
 
 ## Objectives
 
