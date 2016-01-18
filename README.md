@@ -2,7 +2,7 @@
 
 ## Description
 Your task is to recreate this:
-![](assets/todo.png)
+![](todo.png)
 
 ## Objectives
 
